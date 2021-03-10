@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 
-export TASKS_PATH=/Users/robert/Desktop/Dev/Projects/tasks
-
 start_runcrud() {
-   $TASKS_PATH/runcrud.sh
+  echo "Welcome!"
+   ./runcrud.sh
 }
 
 fail() {
